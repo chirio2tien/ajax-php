@@ -1,3 +1,4 @@
+# đoạn README do AI Viết đó thầy e kêu nó up lên git tự tạo cho e luôn e lười viết lại README mới
 # Todo List Ajax - PHP
 
 Ứng dụng quản lý danh sách công việc đơn giản sử dụng PHP, JavaScript Ajax và JSON để lưu trữ dữ liệu.
