@@ -1,0 +1,38 @@
+# IDE và Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+error_log
+access_log
+
+# Temporary files
+*.tmp
+*.temp
+
+# PHP
+*.php~
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (nếu có)
+node_modules/
+
+# Cache
+cache/
+*.cache

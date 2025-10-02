@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="demo-token-12345">
+    <title>Danh sách công việc - Ajax Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Danh sách công việc</h1>
+        
+        <!-- Form thêm công việc -->
+        <div class="add-form">
+            <input 
+                type="text" 
+                id="taskInput" 
+                placeholder="Nhập công việc mới..." 
+                maxlength="100"
+            >
+            <button id="addBtn" onclick="addTask()">Thêm</button>
+        </div>
+
+        <!-- Thông báo trạng thái -->
+        <div id="status" class="status"></div>
+
+        <!-- Danh sách công việc -->
+        <ul id="todoList" class="todo-list">
+            <!-- Danh sách sẽ được load bằng Ajax -->
+        </ul>
+
+        <!-- Loading indicator -->
+        <div id="loading" class="loading" style="display: none;">
+            Đang tải...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
